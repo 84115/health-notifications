@@ -1,0 +1,13 @@
+{
+    "name": "j84115/health-notifications",
+    "description": "...",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "James Ball",
+            "email": "jamesballsemail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

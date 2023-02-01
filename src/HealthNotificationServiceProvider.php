@@ -13,6 +13,8 @@ class HealthNotificationServiceProvider extends ServiceProvider
  
     public function boot()
     {
-        //
+        if (file_exists($file = __DIR__.'/helpers.php')) {
+            require $file;
+        }
     }
 }

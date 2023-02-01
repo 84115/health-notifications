@@ -12,14 +12,17 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "J84115\\HealthNotification\\": "src"
-        }
+            "J84115\\HealthNotification\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "extra": {
         "laravel": {
             "providers": [
                 "J84115\\HealthNotification\\HealthNotificationServiceProvider"
             ]
-        
-    },
+        }
+    }
 }

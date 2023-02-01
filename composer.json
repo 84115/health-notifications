@@ -9,5 +9,17 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "J84115\\HealthNotification\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "J84115\\HealthNotification\\HealthNotificationServiceProvider"
+            ]
+        
+    },
 }
